@@ -1,6 +1,8 @@
-# Kerberos Go Simulator
+# Kerberos Implementation in Go
 
-Une implémentation didactique du protocole d'authentification Kerberos en Go, conçue pour démontrer le fonctionnement du protocole dans un environnement local.
+Ce projet est une implémentation éducative du protocole Kerberos en Go. Il démontre les principes fondamentaux de l'authentification Kerberos à travers une simulation complète.
+
+## Structure du projet
 
 ## 📋 Table des matières
 
@@ -28,30 +30,32 @@ Ce projet est une implémentation pédagogique du protocole d'authentification K
 
 ### Prérequis
 
-- Go 1.18 ou plus récent
+- Go 1.21 ou plus récent
 
 ### Installation
 
 ```bash
-# Cloner le dépôt
-git clone https://github.com/Namth0/Kerberos.git
+# Cloner le dépôt (remplacez par votre URL de dépôt si différente)
+git clone https://github.com/Namhto/Kerberos.git
 cd Kerberos
 
-# Compiler le projet
-go build
+# S'assurer que les dépendances sont à jour (facultatif si aucune dépendance externe)
+go mod tidy
 ```
 
 ## 🚀 Utilisation
 
-Exécutez simplement le programme compilé pour voir la simulation Kerberos en action :
+Exécutez la simulation Kerberos en action :
 
 ```bash
-# Méthode 1: Exécuter directement
-go run Kerberos/kerberos.go
+# Méthode 1: Exécuter directement le module principal
+go run src/cmd/main.go
 
 # Méthode 2: Compiler puis exécuter
-go build -o kerberos-sim Kerberos/kerberos.go
-./kerberos-sim
+# Construire l'exécutable (le nommera 'Kerberos' par défaut ou le nom du module)
+go build src/cmd/main.go 
+# Exécuter (le nom peut varier selon votre OS, ex: ./main ou ./main.exe)
+./main 
 ```
 
 Le programme affichera une simulation étape par étape du processus d'authentification Kerberos, avec des explications sur chaque phase.
@@ -143,4 +147,4 @@ tgs.ServiceDB["service3"] = createFixedKey(16)
 
 ## 📄 Licence
 
-Ce projet est sous licence [MIT](LICENSE) - voir le fichier LICENSE pour plus de détails.
+Ce projet est sous licence [MIT](LICENSE) - voir le fichier LICENSE pour plus de détails. 
