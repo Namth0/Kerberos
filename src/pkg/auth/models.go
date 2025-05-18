@@ -23,14 +23,14 @@ type Authenticator struct {
 
 // Structure du serveur d'authentification (AS)
 type AuthServer struct {
-	UserDB map[string][]byte // Map des utilisateurs et leurs clés
-	TGSKey []byte            // Key for the TGS
+	UserDB map[string][]byte 
+	TGSKey []byte            
 }
 
 // Structure du serveur de tickets (TGS)
 type TicketGrantingServer struct {
 	Key       []byte
-	ServiceDB map[string][]byte // Map des services et leurs clés
+	ServiceDB map[string][]byte 
 }
 
 // Structure du client
