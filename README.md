@@ -6,13 +6,13 @@ Ce projet est une implémentation éducative du protocole Kerberos en Go. Il dé
 
 ## 📋 Table des matières
 
-- [À propos](#à-propos)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Fonctionnement du protocole Kerberos](#fonctionnement-du-protocole-kerberos)
-- [Structure du code](#structure-du-code)
-- [Personnalisation et extensions](#personnalisation-et-extensions)
-- [Licence](#licence)
+- [🔍 À propos](#à-propos)
+- [💾 Installation](#installation)
+- [🚀 Utilisation](#utilisation)
+- [📖 Fonctionnement du protocole Kerberos](#fonctionnement-du-protocole-kerberos)
+- [🧩 Structure du code](#structure-du-code)
+- [🔧 Personnalisation et extensions](#personnalisation-et-extensions)
+- [📄 Licence](#licence)
 
 ## 🔍 À propos
 
