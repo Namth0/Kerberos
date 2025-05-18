@@ -16,7 +16,7 @@ Ce projet est une implémentation éducative du protocole Kerberos en Go. Il dé
 
 ## 🔍 À propos
 
-Ce projet est une implémentation pédagogique du protocole d'authentification Kerberos en Go. Il a été réalisé dans le cadre d'un rapport d'études sur les systèmes d'authentification. Il vise à illustrer le fonctionnement interne du protocole Kerberos à travers une simulation locale[...]
+Ce projet est une implémentation pédagogique du protocole d'authentification Kerberos en Go. Il a été réalisé dans le cadre d'un rapport d'études sur les systèmes d'authentification. Il vise à illustrer le fonctionnement interne du protocole Kerberos à travers une simulation locale.
 
 ### Caractéristiques
 
